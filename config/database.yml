@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: rohan-blog_production
-  username: rohan-blog
-  password: <%= ENV['ROHAN-BLOG_DATABASE_PASSWORD'] %>
+  # username: postgres
+  # password: <%= ENV['ROHAN-BLOG_DATABASE_PASSWORD'] %>
